@@ -1,5 +1,5 @@
 transformers>=4.20.1
-tqdm==4.66.1
+tqdm==4.66.3
 datasets==2.13.0
 torch<2.0.0, >=1.12.1
 langchain==0.0.330
