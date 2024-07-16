@@ -20,3 +20,4 @@ datasets
 pydantic
 ray
 #auto-gptq now not support torch1.12
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
