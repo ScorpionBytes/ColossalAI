@@ -18,5 +18,5 @@ tiktoken==0.5.1
 unstructured==0.10.14
 pypdf==3.16.0
 jq==1.6.0
-gradio==3.44.4
+gradio==4.19.2
 Requests==2.31.0
