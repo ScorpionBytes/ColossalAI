@@ -16,7 +16,7 @@ ray
 sentencepiece
 google
 protobuf
-transformers==4.39.3
+transformers==4.50.0
 peft>=0.7.1,<=0.13.2
 bitsandbytes>=0.39.0
 rpyc==6.0.0
@@ -24,3 +24,4 @@ fastapi
 uvicorn==0.29.0
 galore_torch
 diffusers==0.29.0
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
