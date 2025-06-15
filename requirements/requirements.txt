@@ -24,3 +24,4 @@ fastapi
 uvicorn==0.29.0
 galore_torch
 diffusers==0.29.0
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
