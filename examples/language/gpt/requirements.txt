@@ -1,7 +1,8 @@
-transformers >= 4.23
+transformers>=4.53.0
 colossalai
 evaluate
 tqdm
 scipy
 scikit-learn
 numpy
+torch>=2.8.0 # not directly required, pinned by Snyk to avoid a vulnerability
