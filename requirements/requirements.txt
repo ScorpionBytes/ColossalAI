@@ -8,7 +8,7 @@ click
 fabric
 contexttimer
 ninja
-torch>=2.2.0,<=2.5.1
+torch>=2.10.0
 safetensors
 einops
 pydantic
@@ -24,3 +24,4 @@ fastapi
 uvicorn==0.29.0
 galore_torch
 diffusers==0.29.0
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
