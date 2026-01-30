@@ -1,7 +1,7 @@
 colossalai
-torch >= 1.8.1
+torch>=2.10.0
 datasets >= 1.8.0
-sentencepiece != 0.1.92
+sentencepiece!=0.2.1
 protobuf
 accelerate >= 0.20.3
 transformers
